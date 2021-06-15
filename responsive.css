@@ -1,4 +1,17 @@
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 420px) {
+
+    .row {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
+
+      }
+      
+      #lezioni .row>.left,
+      #lezioni .row>.right {
+        width: 100%;
+      }
 
     #lezioni {
         background-color: #ffffac;
@@ -9,8 +22,10 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        align-self: center;
+        align-content: center;
         padding: 10px;
     }  
+
+
 
 }
