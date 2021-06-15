@@ -43,7 +43,13 @@
         background-color: #fff;
     }
 
-    
+    #why{
+        padding: 5px;
+    }
+
+    img {
+        height: 100px;
+      }
 
     #why .row>.first,
     #why .row>.second,
