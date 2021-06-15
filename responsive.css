@@ -1,72 +1,5 @@
-@media screen and (max-width: 419px) {
+/******DIMENSIONE SCHERMO 768px********/
 
-    .row {
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 0;
-
-
-      }
-
-      #lezioni .row>.left,
-      #lezioni .row>.right {
-        width: 100%;
-      }
-
-    #lezioni .row{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-    }  
-
-    #steps{
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-        padding: 10px;
-    }
-
-    #steps .row>.left,
-    #steps .row>.central,
-    #steps .row>.right {
-        float: left;
-        width: 100%;
-}   
-    #lezioni, #why{
-        background-color: #ffffac;
-    }
-    .container.grey {
-        background-color: #fff;
-    }
-
-    #why{
-        padding: 5px;
-    }
-
-    img {
-        height: 100px;
-    }
-
-    #why .row img {
-        background-color: #428bca;
-        border-radius: 50%;
-       padding: 8px;
-    }
-
-    #why .row>.first,
-    #why .row>.second,
-    #why .row>.third {
-        margin-top: auto;
-    }
-    .right{
-        margin-top: 10px;
-    }
-
-}
 
 @media screen and (max-width: 768px) {
     .row {
@@ -93,6 +26,81 @@
 
     #steps{
         justify-content: center;
+        flex-direction: row-reverse;
+        text-align: center;
+        align-content: center;
+        padding: 10px;
+    }
+
+    #lezioni, #why{
+        background-color: #acffd1;
+    }
+    .container.grey {
+        background-color: #fff;
+    }
+
+    #why{
+        padding: 5px;
+    }
+
+  
+
+    img {
+        height: 100px;
+    }
+
+    #why .row img {
+        background-color: #428bca;
+        border-radius: 50%;
+        padding: 8px;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        margin-top: auto;
+        width: calc(100% / 3 - 40px);
+        float: left;
+        padding: 10px;
+        margin-right: 20px ;
+    }
+    .right{
+        margin-top: 10px;
+    }
+
+    hr{
+        display: none;
+    }
+}
+
+/******DIMENSIONE SCHERMO 420px********/
+
+@media screen and (max-width: 420px) {
+
+    .row {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+
+
+      }
+
+      #lezioni .row>.left,
+      #lezioni .row>.right {
+        width: 100%;
+      }
+
+    #lezioni .row{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+    }  
+
+    #steps{
+        justify-content: center;
         flex-direction: column;
         text-align: center;
         align-content: center;
@@ -130,8 +138,11 @@
     #why .row>.second,
     #why .row>.third {
         margin-top: auto;
+        width: 100%;
     }
     .right{
         margin-top: 10px;
     }
+
 }
+
