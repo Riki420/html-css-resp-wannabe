@@ -1,7 +1,7 @@
-/******DIMENSIONE SCHERMO 768px********/
+/******DIMENSIONE SCHERMO 800px********/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .row {
         width: 100%;
         margin-right: auto;
@@ -61,7 +61,6 @@
         margin-top: auto;
         width: calc(100% / 3 - 40px);
         float: left;
-        padding: 10px;
         margin-right: 20px ;
     }
     .right{
